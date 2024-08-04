@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="quiz">
+    <div class="container">
+    <div class="question active" id="question-1">
+        <div class="heading">
+            <h1>In web design, what does CSS stand for?</h1>
+        </div>
+        <div class="option">
+            <ul>
+                <div class="list">
+                    <li onclick="answers(this)" class="wrong"><span class="false">A</span>Counter Strike Source</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">B</span>Corrective Style Sheet</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">C</span>Computer Style Sheet</li>
+                    <li onclick="answers(this)" class="answer"><span class="true">D</span>Cascading Style Sheet</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="question" id="question-2">
+        <div class="heading">
+            <h1>What does HTML stand for?</h1>
+        </div>
+        <div class="option">
+            <ul>
+                <div class="list">
+                    <li onclick="answers(this)" class="wrong"><span class="false">A</span>Hyperlinks and Text Markup Language</li>
+                    <li onclick="answers(this)" class="answer"><span class="true">B</span>Hypertext Markup Language</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">C</span>Home Tool Markup Language</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">D</span>Hyper Transfer Markup Language</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="question" id="question-3">
+        <div class="heading">
+            <h1>Which CSS property is used to change the text color of an element?</h1>
+        </div>
+        <div class="option">
+            <ul>
+                <div class="list">
+                    <li onclick="answers(this)" class="answer"><span class="true">A</span>color</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">B</span>font-color</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">C</span>text-color</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">D</span>font-style</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="question" id="question-4">
+        <div class="heading">
+            <h1>Which of the following is NOT a valid HTML tag?</h1>
+        </div>
+        <div class="option">
+            <ul>
+                <div class="list">
+                    <li onclick="answers(this)" class="wrong"><span class="false">A</span>header</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">B</span>section</li>
+                    <li onclick="answers(this)" class="answer"><span class="true">C</span>paragraph</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">D</span>footer</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="question" id="question-5">
+        <div class="heading">
+            <h1> Which HTML tag is used to create an unordered list?</h1>
+        </div>
+        <div class="option">
+            <ul>
+                <div class="list">
+                    <li onclick="answers(this)" class="answer"><span class="true">A</span>ul</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">B</span>ol</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">C</span>li</li>
+                    <li onclick="answers(this)" class="wrong"><span class="false">D</span>list</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <button id="next-button" onclick="nextQuestion()">Next</button>
+</div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
